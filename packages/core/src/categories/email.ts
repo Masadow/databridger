@@ -7,7 +7,7 @@ export type Email = {
   to: string[];
   cc: string[];
   bcc: string[];
-  date?: string;
+  date?: Date;
   message: string;
 }
 
