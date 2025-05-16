@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+
+# Build outputs
+dist/
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# MacOS specific files
+.DS_Store
+
+# pnpm specific files
+pnpm-lock.yaml

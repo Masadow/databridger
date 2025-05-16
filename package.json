@@ -1,0 +1,11 @@
+{
+  "name": "ipac-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint"
+  }
+}

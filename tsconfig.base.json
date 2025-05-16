@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM"],
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ipac/core": ["packages/core/src"],
+      "@ipac/client": ["packages/client/src"],
+      "@ipac/react-client": ["packages/react-client/src"],
+      "@ipac/gmail": ["packages/gmail/src"]
+    },
+    "strict": true,
+    "composite": true
+  }
+}

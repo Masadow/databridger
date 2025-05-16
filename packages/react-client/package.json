@@ -1,0 +1,26 @@
+{
+  "name": "@ipac/react-client",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ipac/client": "workspace:*",
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^19.1.2"
+  }
+}
