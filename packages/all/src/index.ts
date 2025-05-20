@@ -1,2 +1,2 @@
-import '@ipac/gmail';
-import '@ipac/notion';
+import '@databridger/gmail';
+import '@databridger/notion';

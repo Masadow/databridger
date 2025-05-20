@@ -1,4 +1,4 @@
-import { registerProvider, Integration, OAuth2Credentials } from "@ipac/core";
+import { registerProvider, Integration, OAuth2Credentials } from "@databridger/core";
 import { google } from 'googleapis';
 import { Email, EmailIntegration, EmailListOptions } from "packages/core/src/categories/email";
 
@@ -89,7 +89,7 @@ export class GmailIntegration extends Integration<'gmail'> implements EmailInteg
   };
 }
 
-declare module '@ipac/core' {
+declare module '@databridger/core' {
   interface ProviderMap {
     gmail: GmailOptions;
   }

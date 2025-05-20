@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import { createIntegration } from '@ipac/core';
-import '@ipac/gmail';
+import { createIntegration } from '@databridger/core';
+import '@databridger/gmail';
 
 const gmail = createIntegration('gmail', {
   clientId: process.env.GMAIL_CLIENT_ID || '',

@@ -1,5 +1,5 @@
 {
-  "name": "@ipac/all",
+  "name": "@databridger/all",
   "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,8 +21,8 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@ipac/gmail": "workspace:*",
-    "@ipac/notion": "workspace:*"
+    "@databridger/gmail": "workspace:*",
+    "@databridger/notion": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.0.0"

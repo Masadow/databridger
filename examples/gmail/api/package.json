@@ -4,8 +4,8 @@
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'tsx' --env-file=.env src/api.ts"
   },
   "dependencies": {
-    "@ipac/core": "workspace:*",
-    "@ipac/gmail": "workspace:*",
+    "@databridger/core": "workspace:*",
+    "@databridger/gmail": "workspace:*",
     "cors": "^2.8.5",
     "express": "^4.18.2"
   },

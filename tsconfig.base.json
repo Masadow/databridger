@@ -7,11 +7,11 @@
     "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
-      "@ipac/core": ["packages/core/src"],
-      "@ipac/client": ["packages/client/src"],
-      "@ipac/react-client": ["packages/react-client/src"],
-      "@ipac/gmail": ["packages/gmail/src"],
-      "@ipac/notion": ["packages/notion/src"],
+      "@databridger/core": ["packages/core/src"],
+      "@databridger/client": ["packages/client/src"],
+      "@databridger/react-client": ["packages/react-client/src"],
+      "@databridger/gmail": ["packages/gmail/src"],
+      "@databridger/notion": ["packages/notion/src"],
     },
     "strict": true,
     "composite": true

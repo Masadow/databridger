@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import { createIntegration } from '@ipac/core';
-import '@ipac/notion';
+import { createIntegration } from '@databridger/core';
+import '@databridger/notion';
 
 const notion = createIntegration('notion', {
   clientId: process.env.NOTION_CLIENT_ID || '',

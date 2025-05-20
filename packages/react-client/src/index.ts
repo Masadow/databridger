@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { OAuth2BrowserClient, type OAuth2BrowserClientOptions } from '@ipac/client';
+import { OAuth2BrowserClient, type OAuth2BrowserClientOptions } from '@databridger/client';
 
 export type OAuth2Props<T> = OAuth2BrowserClientOptions & {
   authUri: string;

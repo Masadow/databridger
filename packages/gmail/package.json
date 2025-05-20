@@ -1,5 +1,5 @@
 {
-  "name": "@ipac/gmail",
+  "name": "@databridger/gmail",
   "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@ipac/core": "workspace:*",
+    "@databridger/core": "workspace:*",
     "googleapis": "^148.0.0"
   },
   "devDependencies": {

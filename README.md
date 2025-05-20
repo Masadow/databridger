@@ -1,13 +1,13 @@
-# IPAC
+# DataBridger
 
-> **Integration Platform As Code**  
+> **Integration Platform As Code**
 > Get unified access to business data sources through a programmable, type-safe interface.
 
 ---
 
-## 🧠 What is IPAC?
+## 🧠 What is DataBridger?
 
-**IPAC** is an open-source library that lets you integrate, normalize, and synchronize data from multiple SaaS tools (Gmail, Notion, Google Drive, Stripe, Outlook...) using a common code interface.
+**DataBridger** is an open-source library that lets you integrate, normalize, and synchronize data from multiple SaaS tools (Gmail, Notion, Google Drive, Stripe, Outlook...) using a common code interface.
 
 Built for developers who need to:
 - Connect authenticated user accounts to external APIs
@@ -102,15 +102,15 @@ We’re building a **developer-first integration layer** — contributions are w
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE)
 
-This project is licensed under the [**Apache License 2.0**](https://www.apache.org/licenses/LICENSE-2.0).  
+This project is licensed under the [**Apache License 2.0**](https://www.apache.org/licenses/LICENSE-2.0).
 You are free to use, modify, distribute, and integrate it in commercial or open-source software.
 
-> Contributors grant a patent license under the terms of Apache 2.0.  
+> Contributors grant a patent license under the terms of Apache 2.0.
 > In case of a patent claim against the project, their license is automatically revoked.
 
 ---
 
 ## 📣 About
 
-IPAC is maintained by the creators of [Kaeron](https://kaeron.ai), the angel assistant for small business operations.  
+IPAC is maintained by the creators of [Kaeron](https://kaeron.ai), the angel assistant for small business operations.
 This library powers our connector layer and is now open for the community.

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Skeleton } from "@/components/ui/skeleton"
-import { useOAuth2 } from '@ipac/react-client';
+import { useOAuth2 } from '@databridger/react-client';
 import { Loader2 } from "lucide-react";
 
 type Document = {

@@ -12,8 +12,8 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      "@ipac/react-client": path.resolve(__dirname, "../../../packages/react-client/src"),
-      "@ipac/client": path.resolve(__dirname, "../../../packages/client/src"),
+      "@databridger/react-client": path.resolve(__dirname, "../../../packages/react-client/src"),
+      "@databridger/client": path.resolve(__dirname, "../../../packages/client/src"),
     },
   },
 })

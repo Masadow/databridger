@@ -1,6 +1,6 @@
-# Setting Up Gmail API in Ipac
+# Setting Up Gmail API in DataBridger
 
-Follow these steps to set up the Gmail API for the Ipac project:
+Follow these steps to set up the Gmail API for the DataBridger project:
 
 ## Prerequisites
 1. Ensure you have a Google Cloud account.

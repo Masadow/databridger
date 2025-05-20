@@ -1,4 +1,4 @@
-import { registerProvider, Integration, OAuth2Credentials } from "@ipac/core";
+import { registerProvider, Integration, OAuth2Credentials } from "@databridger/core";
 import { Client, PageObjectResponse } from '@notionhq/client';
 import { Document, DocumentIntegration, DocumentListOptions } from "packages/core/src/categories/document";
 import { AuthorizationCode } from 'simple-oauth2';
@@ -80,7 +80,7 @@ export class NotionIntegration extends Integration<'notion'> implements Document
   };
 }
 
-declare module '@ipac/core' {
+declare module '@databridger/core' {
   interface ProviderMap {
     notion: NotionOptions;
   }
