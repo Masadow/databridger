@@ -10,15 +10,20 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.json"
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@ipac/core": "workspace:*"
+    "@ipac/core": "workspace:*",
+    "@notionhq/client": "^3.0.1",
+    "simple-oauth2": "^5.1.0"
   },
   "devDependencies": {
+    "@types/simple-oauth2": "^5.0.7",
     "typescript": "^5.0.0"
   }
 }

@@ -10,7 +10,8 @@
       "@ipac/core": ["packages/core/src"],
       "@ipac/client": ["packages/client/src"],
       "@ipac/react-client": ["packages/react-client/src"],
-      "@ipac/gmail": ["packages/gmail/src"]
+      "@ipac/gmail": ["packages/gmail/src"],
+      "@ipac/notion": ["packages/notion/src"],
     },
     "strict": true,
     "composite": true
