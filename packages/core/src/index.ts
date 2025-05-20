@@ -1,6 +1,7 @@
 import { getIntegrationClass, registerProvider as rp } from './registry';
 
 export interface ProviderMap {}
+export interface IntegrationBehaviorMap {}
 
 export type Provider = keyof ProviderMap;
 export type ProviderOptions<P extends Provider> = ProviderMap[P];
@@ -20,12 +21,15 @@ export abstract class Integration<P extends Provider> {
   abstract authenticate(code: string): Promise<OAuth2Credentials>;
 }
 
+export type AugmentedIntegration<P extends Provider> =
+  Integration<P> & IntegrationBehaviorMap[P];
+
 export const registerProvider = rp;
 
 export const createIntegration = <P extends Provider>(
   provider: P,
   options: ProviderOptions<P>
-): Integration<P> => {
+): AugmentedIntegration<P> => {
   const IntegrationCtor = getIntegrationClass(provider);
-  return new IntegrationCtor(provider, options);
+  return new IntegrationCtor(provider, options) as AugmentedIntegration<P>;
 };

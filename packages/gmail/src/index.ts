@@ -94,7 +94,9 @@ declare module '@ipac/core' {
     gmail: GmailOptions;
   }
 
-  interface Integration<P extends 'gmail'> extends EmailIntegration {}
+  interface IntegrationBehaviorMap {
+    gmail: GmailIntegration;
+  }
 }
 
 // Enregistrement automatique au chargement du module

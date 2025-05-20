@@ -14,7 +14,7 @@ const port = 3001;
 
 app.use(cors());
 
-app.get('/auth', (req, res) => {
+app.get('/auth', (_, res) => {
 
   const authUrl = notion.getAuthUrl();
   res.send(JSON.stringify({authUrl}));

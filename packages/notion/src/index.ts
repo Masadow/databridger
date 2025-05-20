@@ -85,7 +85,9 @@ declare module '@ipac/core' {
     notion: NotionOptions;
   }
 
-  interface Integration<P extends 'notion'> extends DocumentIntegration {}
+  interface IntegrationBehaviorMap {
+    notion: NotionIntegration;
+  }
 }
 
 // Enregistrement automatique au chargement du module

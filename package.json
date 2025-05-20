@@ -1,8 +1,12 @@
 {
-  "name": "ipac-monorepo",
+  "name": "ipac",
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.11.0",
   "private": true,
-  "version": "1.0.0",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "Apache-2.0",
   "scripts": {
     "build": "pnpm -r build",
     "test": "pnpm -r test",
