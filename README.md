@@ -46,14 +46,14 @@ Unlike GUI-heavy solutions or hosted black boxes, DataBridger is for engineers w
 ## 🔧 Example usage
 
 ```
-npm i @databridger/core @databridger/all
+npm i @databridger/core @databridger/gmail
 ```
 
 ```ts
 import express from 'express'
 import bodyParser from 'body-parser'
 import { createIntegration } from '@databridger/core'
-import '@databridger/all'
+import '@databridger/gmail'
 
 const app = express()
 app.use(bodyParser.json())
